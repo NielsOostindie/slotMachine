@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Slot Game</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body onload="startGame()">
+    <!-- <div id="login">
+      <form action="insert.php" method="post">
+        <h1>Login hier in met je studentnummer!</h1>
+        <input type="number" name="studentNum" />
+        <input type="submit" value="inloggen"/>
+      </form>
+    </div> -->
+    <button id="buttonRoll"></button>
+    <button id="knopje1"></button>
+    <button id="knopje2"></button>
+    <button id="knopje3"></button>
+    <div id="playArea">
+      <div id="scoreText"> <p id="score"></p></div>
+      <div id="wonText"></div>
+        <p>3 in op een rij = 250 punten</p>
+      <div id="klaver"><img src="img/three/klaver-three-in-row.png"></div>
+      <div id="zeven"><img src="img/three/7-three-in-row.png"></div>
+      <div id="bar"><img src="img/three/bar-three-in-row.png"></div>
+      <div id="bell"><img src="img/three/bell-three-in-row.png"></div>
+      <div id="blackgrape"><img src="img/three/blackgrape-three-in-row.png"></div>
+      <div id="cherry"><img src="img/three/cherry-three-in-row.png"></div>
+      <div id="diamond"><img src="img/three/diamond-three-in-row.png"></div>
+      <div id="horseShoe"><img src="img/three/horseshoe-three-in-row.png"></div>
+      <div id="lemon"><img src="img/three/lemon-three-in-row.png"></div>
+      <div id="plum"><img src="img/three/plum-three-in-row.png"></div>
+
+      <div class="grid-container">
+        <div class="grid-item"><img class="images" src="" alt=""></div>
+        <div class="grid-item"><img class="images" src="" alt=""></div>
+        <div class="grid-item"><img class="images" src="" alt=""></div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
